@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "src/*",
+        "src/components/*",
+        "src/pages/*",
+        "schemas/*"
+      ]
+    },
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "traceResoulution": true,
+    "allowSyntheticImports": true,
+    "module": "commonjs",
+    "target": "es6",
+    "useBabel": true,
+    "jsx": "react",
+    "types": [
+      "webpack",
+      "react"
+    ]
+  },
+  "include": [
+    "./src/*",
+    "./src/components/*",
+    "schemas/*",
+    "schemas/*",
+    "./*"
+  ],
+  "exclude": [
+    "node_modules",
+    "tests",
+    "./src/*/*.test.tsx",
+    "./src/*/*.test.ts"
+  ]
+}
